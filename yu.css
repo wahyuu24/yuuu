@@ -1,0 +1,65 @@
+body, h1, h2, h3, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .cta-button {
+    display: inline-block;
+    background: #e8491d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+header .cta-button:hover {
+    background: #d7361f;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#features .feature {
+    margin: 20px 0;
+}
+
+form input[type="email"] {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    margin-right: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #e8491d;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #d7361f;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
